@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0987f5bc-4c5f-45f2-92f3-8689f04621a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyredis/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyredis/cli.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyredis/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyredis/types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyredis/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyredis/validation.py" afterDir="false" />
@@ -36,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_protocol.py.executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.cli.executor": "Run",
-    "Python.commands.executor": "Run",
-    "Python.protocol.executor": "Run",
-    "Python.server.executor": "Run",
-    "Python.types.executor": "Run",
-    "Python.validation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_protocol.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cli.executor&quot;: &quot;Run&quot;,
+    &quot;Python.commands.executor&quot;: &quot;Run&quot;,
+    &quot;Python.protocol.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL-PC\PycharmProjects\python-redis-server\test" />
