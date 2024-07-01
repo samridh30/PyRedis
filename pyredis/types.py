@@ -5,12 +5,18 @@ from dataclasses import dataclass
 @dataclass
 class SimpleString:
     data: str
+
+    def as_str(self):
+        return self.data
     def resp_encode(self):
         return f"+{self.data}\r\n".encode()
 
 @dataclass
 class Error:
     data: str
+
+    def as_str(self):
+        return self.data
     def resp_encode(self):
         return f"-{self.data}\r\n".encode()
 
@@ -19,6 +25,9 @@ class Error:
 class Integer:
     value: int
 
+    def as_str(self):
+        return str(self.value)
+
     def resp_encode(self):
         return f":{str(self.value)}\r\n".encode()
 
@@ -26,6 +35,9 @@ class Integer:
 @dataclass
 class BulkString:
     data: bytes
+
+    def as_str(self):
+        return self.data.decode()
 
     def resp_encode(self):
         length = len(self.data)
@@ -53,5 +65,8 @@ class Array(Sequence):
 
     def __len__(self):
         return len(self.data)
+
+    def as_str(self):
+        return self.data
 
 
